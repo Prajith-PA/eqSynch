@@ -1,0 +1,71 @@
+.task-details{
+    display:none;
+}
+.task-complete{
+    color:#a9a3a3 !important;
+}
+.notification-msg{
+    background: #d9534f;
+    position: absolute;
+    left: 1px;
+    top: 12px;
+}
+.task-btn-grp{
+    width: 100%;
+    margin: 10px 0;
+}
+.task-btn-grp button{
+    width: 100%;
+    padding: 10px 1px;
+    font-size: 26px;
+}
+.replay-view-box{
+    margin: 10px 10px;
+    padding: 10px 0;
+}
+.after-login{
+    display:none;
+}
+.login-error{
+    display:none;
+}
+.navbar-right {
+    float: right!important;
+    margin-right: -15px;
+}
+.navbar-header {
+    float: left;
+}
+.dropdown-menu{
+    right:0;
+    left: inherit;
+}
+.page-header{
+    padding-bottom: 0;
+    margin: 15px 0 15px;
+}
+.container-fluid{
+    padding: 0 35px;
+}
+.logo-text{
+    color: #337ab7;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    font-size: 28px;
+    text-align: center;
+}
+.logo-sub{
+    font-weight: 700;
+}
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.login-panel {
+    margin-top: inherit;
+}
