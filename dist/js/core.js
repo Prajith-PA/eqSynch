@@ -22,14 +22,14 @@ $(function() {
                 $('.notification-msg').html(parseInt($('.notification-msg').html())-1);
             }
         }        
-        $('.page-header').html('Inbox');
+        $('.page-header').html('Notifications');
         $('.task-details').hide();
         $('.task-list').fadeIn();
     });
     $('.btn-login').click(function(){
         var email = $('.txt_email').val();
         var pass = $('.txt_pass').val();
-        if(email == 'admin' && pass == 'admin'){
+        if(email == '9998887770' && pass == 'admin'){
             $('.login-page').hide();
             $('.after-login').fadeIn();
         }else{
@@ -53,5 +53,5 @@ $(function() {
 function showHomePage(){
     $('.page').hide();
     $('.page-2').fadeIn();
-    $('.page-header').html('Inbox');
+    $('.page-header').html('Notifications');
 }
