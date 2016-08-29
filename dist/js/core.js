@@ -8,7 +8,7 @@ $(function() {
         }
         $('.task-details').fadeIn();
         $('.msg-view-details .replay-sub-head').html($(this).find('.sub-head').html()).parent().fadeIn();
-        $('.page-header').html('Replay');
+        $('.page-header').html('Reply');
         currTask = $(this).data('taskid');
     });
     
